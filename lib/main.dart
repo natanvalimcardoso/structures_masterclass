@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_pastas_masterclass/src/json_placeholder/screens/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      //home: HomePage(),
+      home: HomePage(),
     );
   }
 }

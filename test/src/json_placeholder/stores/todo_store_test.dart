@@ -3,4 +3,5 @@ import 'package:flutter_pastas_masterclass/src/json_placeholder/stores/todo_stor
 void main() async {
   final store = TodoStore();
   await store.getAllTodos();
+  print(store.todos[1].title);
 }
