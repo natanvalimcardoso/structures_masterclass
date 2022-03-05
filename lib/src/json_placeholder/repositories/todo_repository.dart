@@ -11,7 +11,7 @@ class TodoRepository {
   Future<List<TodoModel>> getTodos() async {
     late List list; // o Late é para que o valor seja definido apenas quando for usado e dai não preciso dizer que ele pode ser nulo
     if (await checkinternetService.isConnected()) {
-      final list = await remoteDatasource.getTodos();
+      list = await remoteDatasource.getTodos();
       await localDatasource.saveTodos(list);
     } else {
       list = await remoteDatasource.getTodos();
