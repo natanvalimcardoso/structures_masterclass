@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "flutter_pastas_masterclass" "\0"
+            VALUE "FileDescription", "agoravai" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_pastas_masterclass" "\0"
+            VALUE "InternalName", "agoravai" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_pastas_masterclass.exe" "\0"
-            VALUE "ProductName", "flutter_pastas_masterclass" "\0"
+            VALUE "OriginalFilename", "agoravai.exe" "\0"
+            VALUE "ProductName", "agoravai" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

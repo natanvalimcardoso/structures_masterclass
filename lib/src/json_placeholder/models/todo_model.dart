@@ -10,7 +10,6 @@ class TodoModel {
       id: json['id'],
       title: json['title'],
       isChecked: json['completed'],
-      
     );
   }
 }

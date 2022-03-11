@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(flutter_pastas_masterclass LANGUAGES CXX)
+project(agoravai LANGUAGES CXX)
 
-set(BINARY_NAME "flutter_pastas_masterclass")
+set(BINARY_NAME "agoravai")
 
 cmake_policy(SET CMP0063 NEW)
 
